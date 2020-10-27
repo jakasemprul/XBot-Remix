@@ -15,3 +15,13 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("SSH INDO 🇮🇩 10 K   SSH SG 🇨🇱 15 K")
 # Create by myself @localheart
+
+
+
+CMD_HELP.update({
+    "harga":
+    "`.pay`\
+\nUsage: Nomer Telepon dan DANA\
+\n\n`.list`\
+\nUsage:List harga ssh"
+})
