@@ -1,4 +1,5 @@
 from time import sleep
+from userbot import CMD_HELP
 from userbot.events import register
 
 
@@ -21,3 +22,11 @@ async def typewriter(typew):
     await typew.edit("**SISA HEROKU ANDA = UNLIMITED😎😎**")
 
 # Create by myself @localheart
+
+CMD_HELP.update({
+    "cheat":
+    "`.cheat`\
+\nUsage: Cheat heroku Unlimited\
+\n\n`.unli`\
+\nUsage:Liat hasil Cheat heroku"
+})
