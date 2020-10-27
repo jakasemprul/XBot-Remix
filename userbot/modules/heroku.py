@@ -214,6 +214,14 @@ async def _(dyno):
     return os.remove("logs.txt")
 
 
+@register(outgoing=True, pattern='^.usagee(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("**SANTAII LAH BOSS.. HEROKU PUNYAMU INI GAKADA HABISNYA😎😎**")
+# Create by myself @localheart
+
+
 CMD_HELP.update({"heroku": ">.`usage`"
                  "\nUsage: Check your heroku dyno hours remaining"
                  "\n\n>`.set var <NEW VAR> <VALUE>`"
