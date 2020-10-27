@@ -20,15 +20,5 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
     await typew.edit("**SISA HEROKU ANDA = UNLIMITED😎😎**")
-    
+
 # Create by myself @localheart
-
-
-
-
-
-
-  
-
-
-
