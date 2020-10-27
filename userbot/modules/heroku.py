@@ -185,8 +185,7 @@ async def dyno_usage(dyno):
                 f"{AppMinutes} menit  -  {AppPercentage}%**"
                 "\n ◐━─━─━─━─━──━─━─━─━─━◐\n"
                 "-> `Sisa Dyno Bulan Ini`:\n"
-                f"    •**{hours} jam - {minutes} menit  "
-                f"-  {percentage}%**\n"
+                f"    •**UNLIMITED CUK...😆😆**\n'   
                 "╰━━━━━━━━━━━━━━━━━━━━╯"
             )
             await asyncio.sleep(20)
