@@ -13,8 +13,5 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("-  SSH PREMIUM SINGAPORE  15 k
--  SSH PREMIUM INDONESIA  10 k
--  TEMBAK OMG READY  pm @adjieptra
-- VPS INDONESIA/SINGAPORE READY 150-200 k")
+    await typew.edit("SSH INDO 🇮🇩 10 K   SSH SG 🇨🇱 15 K")
 # Create by myself @localheart
