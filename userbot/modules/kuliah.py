@@ -82,7 +82,7 @@ async def _(event):
         return
     event.pattern_match.group(1)
     chat = "@unsiq_bot"  # pylint:disable=E0602
-    DIS = f"DIS"  # pylint:disable=E0602
+    dis = f"dis"  # pylint:disable=E0602
     await event.edit("Processing....")
     async with bot.conversation("@unsiq_bot") as conv:
         try:
@@ -90,7 +90,7 @@ async def _(event):
                 events.NewMessage(
                     incoming=True,
                     from_users=458359369))
-            await conv.send_message(f'{DIS} {No}')
+            await conv.send_message(f'{DIS} {No} {Comment}')
             response = await response
         except YouBlockedUserError:
             await event.reply("Unblock @ unsiq_bot dulu Goblok!!")
