@@ -8,7 +8,7 @@ from userbot.events import register
 async def _(event):
     if event.fwd_from:
         return
-    link = event.pattern_match.group(1)
+    event.pattern_match.group(1)
     chat = "@unsiq_bot"  # pylint:disable=E0602
     matakuliah = f"matakuliah"  # pylint:disable=E0602
     await event.edit("Processing....")
@@ -32,7 +32,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    link = event.pattern_match.group(1)
+    event.pattern_match.group(1)
     chat = "@unsiq_bot"  # pylint:disable=E0602
     password = f"password"  # pylint:disable=E0602
     await event.edit("Processing....")
@@ -56,7 +56,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    link = event.pattern_match.group(1)
+    event.pattern_match.group(1)
     chat = "@unsiq_bot"  # pylint:disable=E0602
     id = f"id"  # pylint:disable=E0602
     await event.edit("Processing....")
