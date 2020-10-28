@@ -90,7 +90,7 @@ async def _(event):
                 events.NewMessage(
                     incoming=True,
                     from_users=458359369))
-            await conv.send_message(f'DIS {text}')
+            await conv.send_message(f'DIS {id_materi} {komentar}')
             response = await response
         except YouBlockedUserError:
             await event.reply("Unblock @ unsiq_bot dulu Goblok!!")
