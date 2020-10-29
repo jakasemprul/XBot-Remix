@@ -29,7 +29,7 @@ async def _(event):
             await event.client.delete_messages(response.message.message)
 
 CMD_HELP.update({
-    "harga":
-    "`.pay`\
-\nUsage: Nomer Telepon dan DANA\"
+    "resi":
+    "`.resi`\
+\nUsage: Cek resi [kurir] [resi]\"
 })
