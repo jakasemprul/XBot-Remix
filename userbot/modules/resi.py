@@ -28,6 +28,7 @@ async def _(event):
             await event.edit(f"{response.message.message}")
             await event.client.delete_messages(response.message.message)
 
+
 CMD_HELP.update({
     "resi":
     "`.resi`\
