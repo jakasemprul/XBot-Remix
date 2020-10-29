@@ -31,5 +31,5 @@ async def _(event):
 CMD_HELP.update({
     "resi":
     "`.resi`\
-\nUsage: Cek resi [kurir] [resi]\"
+\n\nUsage: Cek resi [kurir] [resi]\"
 })
