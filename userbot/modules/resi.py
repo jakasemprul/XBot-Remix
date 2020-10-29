@@ -27,3 +27,9 @@ async def _(event):
         else:
             await event.edit(f"{response.message.message}")
             await event.client.delete_messages(response.message.message)
+
+CMD_HELP.update({
+    "harga":
+    "`.pay`\
+\nUsage: Nomer Telepon dan DANA\"
+})
