@@ -32,5 +32,7 @@ CMD_HELP.update({
     "`.pay`\
 \nUsage: Nomer Telepon dan DANA\
 \n\n`.list`\
-\nUsage:List harga ssh"
+\nUsage:List harga ssh\
+\n\n`.jual\
+\nUsage: Daftar jualan.\"
 })
