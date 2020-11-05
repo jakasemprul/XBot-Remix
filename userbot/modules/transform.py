@@ -4,7 +4,7 @@
 import os
 import random
 import numpy as np
-from color import Color
+from colour import Color
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from PIL import Image, ImageOps, ImageDraw, ImageFont
