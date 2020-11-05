@@ -34,5 +34,5 @@ CMD_HELP.update({
 \n\n`.list`\
 \nUsage:List harga ssh\
 \n\n`.jual\
- \nUsage: Daftar jualan.\"
-})
+\nUsage: Daftar jualan.\
+"})
