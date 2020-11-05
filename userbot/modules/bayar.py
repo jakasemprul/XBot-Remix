@@ -19,6 +19,14 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+@register(outgoing=True, pattern='^.jual(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("https://telegra.ph/file/b73721b40100fc93bc9d6.jpg")
+# Create by myself @localheart
+
+
 CMD_HELP.update({
     "harga":
     "`.pay`\
