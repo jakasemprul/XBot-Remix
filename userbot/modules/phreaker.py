@@ -133,7 +133,7 @@ CMD_HELP.update({
 \n\n`.cek <bug hosts>`\
 \nUsage: to cek respons bug/host.\
     \n\n`.bin < bug hosts >`\
-    \nUsage: to cek bin ip."\
-\n\n`.cc <mm|yy|cvv`\
-\nUsage: to cek Credits Card Stats."
+    \nUsage: to cek bin ip."
+    \n\n`.cc < mm | yy | cvv`
+    \nUsage: to cek Credits Card Stats."
 })
