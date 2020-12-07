@@ -131,7 +131,7 @@ CMD_HELP.update({
 \n\n`.subd <bug hosts>`\
 \nUsage: to get subdomain bug/host.\
 \n\n`.cek <bug hosts>`\
-\nUsage: to cek respons bug/host."
+\nUsage: to cek respons bug/host.\
     \n\n`.bin < bug hosts >`
     \nUsage: to cek bin ip."\
 \n\n`.cc <mm|yy|cvv`\
