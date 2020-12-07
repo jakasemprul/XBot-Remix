@@ -134,6 +134,6 @@ CMD_HELP.update({
 \nUsage: to cek respons bug/host.\
     \n\n`.bin < bug hosts >`\
     \nUsage: to cek bin ip."
-    \n\n`.cc < mm | yy | cvv >`
+    \n\n`.cc < mm | yy | cvv >`\
     \nUsage: to cek Credits Card Stats."
 })
