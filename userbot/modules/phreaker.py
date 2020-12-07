@@ -124,6 +124,7 @@ async def _(event):
             await event.client.delete_messages(response.message.message)
 
 
+
 CMD_HELP.update({
     "phreaker":
     "`.nmap <bug hosts>`\
@@ -132,8 +133,8 @@ CMD_HELP.update({
 \nUsage: to get subdomain bug/host.\
 \n\n`.cek <bug hosts>`\
 \nUsage: to cek respons bug/host.\
-    \n\n`.bin < bug hosts >`\
-    \nUsage: to cek bin ip."
-    \n\n`.cc < mm | yy | cvv >`
-    \nUsage: to cek Credits Card Stats."
+    \n\n`.bin < bin number >`\
+    \nUsage: to cek bin ip.\
+\n\n`.cc <mm|yy|cvv`\
+\nUsage: to cek Credits Card Stats."
 })
