@@ -10,19 +10,19 @@ async def _(event):
     if event.fwd_from:
         return
     event.pattern_match.group(1)
-    chat = "@GeDebugBetaBot"  # pylint:disable=E0602
+    chat = "@cekresionline_bot"  # pylint:disable=E0602
     resi = f"resi"  # pylint:disable=E0602
     await event.edit("Processing....")
-    async with bot.conversation("@GeDebugBetaBot") as conv:
+    async with bot.conversation("@cekresionline_bot") as conv:
         try:
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=443213072))
-            await conv.send_message(f'{kurir} {resi}')
+                    from_users=1426594594))
+            await conv.send_message(f'{kode_ekspedisi} {nomor_resi}')
             response = await response
         except YouBlockedUserError:
-            await event.reply("Unblock @ GeDebugBetaBot dulu Goblok!!")
+            await event.reply("Unblock @ cekresionline_bot dulu Goblok!!")
             return
         else:
             await event.edit(f"{response.message.message}")
