@@ -7,7 +7,7 @@ from userbot.events import register
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("📱DANA 085877240759 📱PULSA 082114264663")
+    await typew.edit("📱DANA 085877240759 📱PULSA 082311759442")
 # Create by myself @localheart
 
 
