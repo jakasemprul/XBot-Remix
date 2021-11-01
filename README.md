@@ -1,10 +1,10 @@
 <p align="center">
     <img alt="XBOT VERSION" src="https://img.shields.io/badge/XBOT%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
-    <a href="https://travis-ci.com/X-Newbie/XBot-Remix.svg?branch=x-sql-extended" /></a>
-    <a href="https://app.codacy.com/gh/X-Newbie/XBot-Remix/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/X-Newbie/XBot-Remix"> <img src="https://img.shields.io/github/repo-size/X-Newbie/XBot-Remix?logo=github&style=for-the-badge" /></a>
-    <a href="https://github.com/X-Newbie/XBot-Remix/network/members"> <img src="https://img.shields.io/github/forks/X-Newbie/XBot-Remix?logo=github&style=for-the-badge" /></a>
+    <a href="https://travis-ci.com/jakasemprul/XBot-Remix.svg?branch=x-sql-extended" /></a>
+    <a href="https://app.codacy.com/gh/jakasemprul/XBot-Remix/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/jakasemprul/XBot-Remix"> <img src="https://img.shields.io/github/repo-size/jakasemprul/XBot-Remix?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/X-Newbie/jakasemprul/network/members"> <img src="https://img.shields.io/github/forks/jakasemprul/XBot-Remix?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.8.6-blue?style=for-the-badge&logo=appveyor"/>
     <a href="https://hub.docker.com/r/xnewbie/docker"> <img src="https://img.shields.io/docker/image-size/xnewbie/docker/groovy?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
@@ -40,7 +40,7 @@ Generate string session on Repl.it:
 ### Or Run on your terminal
 
 ```
-wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstring.sh && bash Getstring.sh
+wget https://raw.githubusercontent.com/jakasemprul/XBot-Remix/x-sql-extended/Getstring.sh && bash Getstring.sh
 ```
 <br>
 
@@ -63,7 +63,7 @@ wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstr
 ## <p align="center">Deploy to Heroku Methods</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/X-Newbie/XBot-Remix/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/jakasemprul/XBot-Remix/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
